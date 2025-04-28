@@ -1,3 +1,5 @@
+import math
+
 while True:
     try:
         num1 = int(input("What is your first Number: "))
@@ -20,11 +22,12 @@ while True:
     nums = range(num1,num2)
 
     def is_prime(num):
-        for x in range(2,num):
-            if (num%x) == 0:
+        if num <= 1:
+            return False
+        for i in range(2, int(math.sqrt(num)) + 1):
+            if num % i == 0:
                 return False
-            else:
-                return True
+        return True
 
     primes=list(filter(is_prime, nums))
     print(primes)
