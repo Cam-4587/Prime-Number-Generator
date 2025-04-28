@@ -1,1 +1,1 @@
-I would like to credit this Youtube video in this project [here](https://www.youtube.com/watch?v=g9fIWtSexLs&list=LL&index=23).
+I would like to credit this Youtube video in this project [here](https://www.youtube.com/watch?v=g9fIWtSexLs&list=LL&index=23) and this article [here](https://docs.vultr.com/python/examples/check-prime-number)
